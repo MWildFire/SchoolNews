@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.block {
+    margin: 2px;
+    border: 1px solid black;
+    height: 200px;
+
+}
+
+.out {
+    display: flex;
+}
+
+.main {
+    width: 900px;
+}
+
+.nav {
+    width: 200px;
+}
+
+.left_navbar {
+    height: 100vh;
+    width: 20vw;
+    background: #c5dcdc;
+    margin-right: 3px;
+    position: fixed;
+    font-size: 5vh;
+}
+
+.profile_place {
+    height: 10%;
+    width: 100%;
+    background: #b9eaea;
+}
+
+
+
+.profile_pic {
+    border-radius: 50%;
+    position: fixed;
+    top: 2vh;
+    left: 1vh;
+    height: 40px;
+    width: 40px;
+}
+
+.nickname {
+    font-weight: 1000;
+    position: fixed;
+    top: 1.5vh;
+    left: 6vw;
+}
+
+
+
