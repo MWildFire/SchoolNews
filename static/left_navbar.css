@@ -7,52 +7,81 @@ body {
     margin: 2px;
     border: 1px solid black;
     height: 200px;
-
+    display: block;
 }
 
 .out {
     display: flex;
+    justify-content: center;
 }
 
 .main {
     width: 900px;
+    height: 2000px;
 }
 
 .nav {
     width: 200px;
-}
-
-.left_navbar {
-    height: 100vh;
-    width: 20vw;
+    max-width: 250px;
+    margin-left:20px;
+    min-width: 100px;
+    position: relative;
     background: #c5dcdc;
-    margin-right: 3px;
-    position: fixed;
-    font-size: 5vh;
+    height:500px;
+    max-height: 100vh;
+    border-radius: 5px;
+
 }
 
 .profile_place {
     height: 10%;
     width: 100%;
-    background: #b9eaea;
+    background: #b9eabe;
+    border-bottom: 1px solid black;
 }
 
 
 
 .profile_pic {
     border-radius: 50%;
-    position: fixed;
     top: 2vh;
     left: 1vh;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
+    max-width: 45px;
+    max-height: 45px;
+    margin-left: 5%;
 }
 
 .nickname {
-    font-weight: 1000;
-    position: fixed;
-    top: 1.5vh;
-    left: 6vw;
+    font-weight: bold;
+    margin: 4px auto;
+    padding-top: 5%;
+    font-size: 15px;
+}
+
+.channel {
+    width: 90%;
+    height: 20px;
+    background: #ead4b9;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size:70%;
+    text-align: center;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.channels {
+    width: 100%;
+    margin-top: 10px;
 }
 
 
