@@ -1,0 +1,6 @@
+.profile_place {
+    height: 10vh;
+    width: 100%;
+    background: rgba(50, 150, 147, 0.61);
+    border-bottom: 1px solid black;
+}

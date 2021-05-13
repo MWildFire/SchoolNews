@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    background-color: #D7DEF2;
+
 }
 
 .block {
@@ -23,10 +25,10 @@ body {
 .nav {
     width: 200px;
     max-width: 250px;
-    margin-left:20px;
+    margin-left:-112vh;
     min-width: 100px;
-    position: relative;
-    background: #c5dcdc;
+    position: fixed;
+    background: rgba(103, 204, 195, 0.61);
     height:500px;
     max-height: 100vh;
     border-radius: 5px;
@@ -34,9 +36,9 @@ body {
 }
 
 .profile_place {
-    height: 10%;
+    height: 10vh;
     width: 100%;
-    background: #b9eabe;
+    background: rgba(50, 150, 147, 0.61);
     border-bottom: 1px solid black;
 }
 
@@ -62,14 +64,15 @@ body {
 
 .channel {
     width: 90%;
-    height: 20px;
-    background: #ead4b9;
+    height: 25px;
+    background: #AE7CD3;
     margin: 5px auto;
     border: 1px solid black;
     border-radius: 5px;
     color: black;
     font-size:70%;
     text-align: center;
+    padding: 3px 3px;
 
 }
 
