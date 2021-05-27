@@ -12,6 +12,7 @@ def entry_point():
 def register_person():
     return render_template('register_person.html')
 
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'GET':
