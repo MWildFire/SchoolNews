@@ -7,13 +7,6 @@ app = Flask(__name__)
 def entry_point():
     return render_template('community.html')
 
-@app.route('/login')
-def login():
-    return render_template('login.html')
-
-@app.route('/register')
-def register():
-    return render_template('register.html')
 
 @app.route('/register_person')
 def register_person():
